@@ -8,7 +8,7 @@ body {
 	background-color: #020b15;
 	color: white;
 	font-family: "Rubik", ui-sans-serif;
-	width: min(50em, 90vw);
+	width: min(50em, 80vw);
 	margin: 3em auto;
 }
 
