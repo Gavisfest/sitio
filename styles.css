@@ -31,6 +31,7 @@ h2 {
 	z-index: -1;
 	top: -0.45em;
 	left: -0.8em;
+	user-select: none;
 }
 
 .brand .name {
