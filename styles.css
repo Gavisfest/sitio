@@ -9,38 +9,92 @@ body {
 	color: white;
 	font-family: "Rubik", ui-sans-serif;
 	width: min(50em, 80vw);
-	margin: 3em auto;
+	margin: min(3em, 10vh) auto;
+}
+
+a {
+	color: rgba(89, 180, 255, 1);
+	transition: color 0.2s ease-in;
+}
+
+a:hover {
+	color: #bd7cff;
+	transition: color 0.2s;
+}
+
+h1 {
+	margin-top: 2.9rem;
 }
 
 h1,
 h2 {
-	font-family: "Dela Gothic One", "Helvetica", ui-sans-serif;
+	font-family: "Dela Gothic One", "Georgia", serif;
+	font-weight: bolder;
 }
 
-.brand {
-	margin-top: 5rem;
+.refToGabi {
+	font-family: "Dela Gothic One", cursive;
+	animation: glow 0.7s ease-in alternate infinite;
 }
 
-.brand .crown {
-	position: absolute;
+@keyframes glow {
+	0% {
+		text-shadow: 0 0 1rem #f6707b;
+	}
+
+	100% {
+		text-shadow: 0 0 2.5rem #f6707b;
+	}
 }
 
-.brand .crown .image {
-	max-height: 6rem;
-	position: relative;
-	z-index: -1;
-	top: -0.45em;
-	left: -0.8em;
-	user-select: none;
+@media (prefers-reduced-motion) {
+	.refToGabi {
+		text-shadow: 0 0 1.5rem #f6707b;
+		animation: none;
+	}
 }
 
-.brand .name {
+.promotion {
+	margin-top: max(10vh, 1rem);
+}
+
+.promotion .logo {
+	text-align: center;
+	overflow-wrap: break-word;
+}
+
+.promotion .logo .name {
 	margin-bottom: 1.6rem;
-	font-size: 4rem;
-	overflow-wrap: anywhere;
+	margin-top: 0;
+	font-size: max(2rem, min(5.5rem, 10vh, 11.5vw));
 
 	color: #ffe913;
 	color: color(
-		display-p3 1 0.915 0.129
+		display-p3 1 0.922 0.2
 	); /* Brighter yellow; displayed by Webkit and effective displays */
+}
+
+.promotion .logo .crown {
+	position: absolute;
+}
+
+.promotion .logo .crown img {
+	max-height: calc(1.3 * max(2rem, min(5.5rem, 10vh, 11.5vw)));
+	max-width: 100vw;
+	position: relative;
+	z-index: -1;
+	top: -0.35em;
+	left: -0.661em;
+	user-select: none;
+}
+
+.promotion .animal {
+	position: relative;
+	top: min(-3rem, max(-6rem, -11vh, -13.5vw));
+}
+
+.promotion .animal img {
+	margin: auto;
+	height: min(84vh, 100vw);
+	display: block;
 }
