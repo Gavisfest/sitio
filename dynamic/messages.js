@@ -6,7 +6,7 @@ export default [
 	"dijimos que sería el 20 de julio",
 	"w e n o",
 	"W-what's this?",
-	"I have no idea; i haven't involved myself in complicated things like that as i'm just distracting myself from the anxiety i've had of the amount of shit i can and want to do on my switch and can't",
+	"I have no idea; i haven't involved myself in complicated things like that as i'm just distracting myself from the anxiety i've had of the amount of things i want to do on my switch and can't",
 	"Jaja hice una página del gavisfest",
 	"que tal si somos 🧠 y nos reunimos irl para el gavisfest en vez de hacerlo virtual?",
 	"Durante el Gavisfest, no hablaremos sobre Gabiscón",
