@@ -1,4 +1,4 @@
-# El sitio web de Gavisfest
+# El sitio web del Gavisfest
 
 Introducción al Gavisfest para ver desde el navegador.
 
