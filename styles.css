@@ -7,9 +7,16 @@
 body {
 	background-color: #020b15;
 	color: white;
+	font-size: 16px;
 	font-family: "Rubik", ui-sans-serif;
 	width: min(50em, 80vw);
 	margin: min(3em, 10vh) auto;
+}
+
+@media screen and (max-width: 601px) {
+	body {
+		font-size: 1.3rem;
+	}
 }
 
 a {
@@ -23,7 +30,7 @@ a:hover {
 }
 
 h1 {
-	margin-top: 2.9rem;
+	margin-top: 2.9em;
 }
 
 h1,
